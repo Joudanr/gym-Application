@@ -1,0 +1,80 @@
+
+/* Style for all Text shapes */
+.Root {
+    -fx-fill: #7d8a6b;                /* Text color */
+    -fx-font-size: 30px;              /* Font size */
+    -fx-font-weight: bold;            /* Font weight */
+    -fx-font-family: "Arial";         /* Font family */
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.2), 2, 0.0, 1, 1);  /* Light shadow effect */
+}
+
+/* Style for all Button controls */
+.button {
+    -fx-background-color: #ced9bf;    /* Button background color */
+    -fx-text-fill: black;             /* Text color */
+    -fx-font-weight: bold;
+    -fx-pref-width: 250px;            /* Preferred width */
+    -fx-pref-height: 30px;            /* Preferred height */
+    -fx-background-radius: 8px;       /* Slightly curved edges */
+    -fx-font-size: 14px;              /* Adjust font size as needed */
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.4), 2, 0.5, 1, 1);  /* shadow effect */
+
+}
+
+.button_Back{
+    -fx-background-color: #e0e8d5;    /* Button background color */
+    -fx-text-fill: black;             /* Text color */
+    -fx-font-weight: bold;
+    -fx-pref-width: 25px;            /* Preferred width */
+    -fx-pref-height: 25px;            /* Preferred height */
+    -fx-background-radius: 10px;       /* Slightly curved edges */
+    -fx-font-size: 12px;              /* Adjust font size as needed */ 
+}
+
+.button_event{
+    -fx-background-color: #e2f0ce;    /* Button background color */
+    -fx-text-fill: black;             /* Text color */
+    -fx-font-weight: bold;
+    -fx-pref-width: 70px;            /* Preferred width */
+    -fx-pref-height: 25px;            /* Preferred height */
+    -fx-background-radius: 10px;       /* Slightly curved edges */
+    -fx-font-size: 12px;              /* Adjust font size as needed */ 
+}
+
+/* Style for all Label controls */
+.label_event {
+    -fx-text-fill: #7a8768;     /* Text color */
+    -fx-font-weight: bold;      /* Bold font */
+    -fx-font-size: 12px;        /* Font size */
+}
+
+.button_logout{
+    -fx-background-color: #e0e8d5;    /* Button background color */
+    -fx-text-fill: black;             /* Text color */
+    -fx-pref-width: 70px;            /* Preferred width */
+    -fx-pref-height: 25px;            /* Preferred height */
+    -fx-background-radius: 10px;       /* Slightly curved edges */
+    -fx-font-size: 12px;              /* Adjust font size as needed */ 
+}
+
+.combo-box {
+    -fx-background-color: #bec9ad; /* Light green background */
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-font-weight: bold;
+    -fx-pref-width: 250px;            /* Preferred width */
+    -fx-pref-height: 30px;            /* Preferred height */
+    -fx-background-radius: 8px;       /* Slightly curved edges */
+    -fx-font-size: 14px;  
+}
+
+.make_blod{
+     -fx-font-weight: bold;
+}
+
+
+
+
+
+
+
+
